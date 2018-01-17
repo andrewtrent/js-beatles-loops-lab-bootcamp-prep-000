@@ -16,13 +16,13 @@ function johnLennonFacts(facts){
   return exclaim
 }
 
-function iLoveTheBeatles(){
+function iLoveTheBeatles(n){
   var love = []
-  var i = 0
-  if(i != 17){
+  var i = n
+  if(n != 17){
     do{
     love.push(`I love the Beatles!`)
-    i++
+    i--
     } while(i<15)
   } 
   else {
