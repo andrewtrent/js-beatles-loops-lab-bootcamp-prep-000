@@ -18,12 +18,11 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(n){
   var love = []
-  var i = n
   if(n != 17){
     do{
     love.push(`I love the Beatles!`)
-    i--
-    } while(i<15)
+    n--
+    } while(n<15)
   } 
   else {
     love.push(`I love the Beatles!`)
